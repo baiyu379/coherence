@@ -299,7 +299,7 @@ mpl.colorbar.ColorbarBase(cb_phs, cmap=cmap,
                           label='phase (deg)')
 
 # ファイルに保存
-out_fig_path = f"C:/Users/white/baipro/figure/001_phase/sweep/wavelet/figure_{channel1}_{channel2}.png"
-plt.savefig(out_fig_path, transparent=False)
+#out_fig_path = f"C:/Users/white/baipro/figure/001_phase/sweep/wavelet/figure_{channel1}_{channel2}.png"
+#plt.savefig(out_fig_path, transparent=False)
 
 st.pyplot(fig)
