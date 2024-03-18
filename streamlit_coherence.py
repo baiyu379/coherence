@@ -117,7 +117,7 @@ plt.rcParams['ytick.major.size'] = 6
 plt.rcParams['ytick.minor.size'] = 3
 plt.rcParams['ytick.minor.visible'] = True
 plt.rcParams["font.size"] = 14
-plt.rcParams['font.family'] = 'Arial'
+#plt.rcParams['font.family'] = 'Arial'
 
 # 窓関数幅をプロット上部に記載
 fig.text(0.10, 0.95, f't_wndw = {t_wndw} s')
